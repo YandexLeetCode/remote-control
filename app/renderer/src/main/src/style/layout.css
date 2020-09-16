@@ -1,0 +1,48 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 25px;
+    background-color: green;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-size: small;
+}
+.body {
+    flex: 1;
+    background-color: aquamarine;
+    display: flex;
+}
+.body_left {
+    background-color: blue;
+    transition: all 0.4s;
+}
+.body_right {
+    flex: 1;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+.body_right_top {
+    flex: 1;
+    display: flex;
+}
+.body_right_bottom {
+    height: 50px;
+    background-color: fuchsia;
+    line-height: 50px
+}
+.body_right_top_left {
+    width: 250px;
+}
+.body_right_top_right {
+    flex: 1;
+    background-color: aquamarine;
+}
