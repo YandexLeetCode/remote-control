@@ -5,8 +5,6 @@ class ContactUser extends React.Component {
     constructor(props) {
         super(props)
     }
-
-
     render () {
         return (
             <div className={contact_user.container}>ContactUser</div>

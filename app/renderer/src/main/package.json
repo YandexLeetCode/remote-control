@@ -36,7 +36,6 @@
     "@ant-design/icons": "^4.2.2",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.6",
-    "react-router": "^3.2.6",
     "react-router-dom": "^5.2.0"
   }
 }

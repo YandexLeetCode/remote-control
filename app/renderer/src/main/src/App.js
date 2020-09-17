@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ipcRenderer } from 'electron';
-import MainLayout from './layout/layout.js'
+import MainLayout from './component/main_page.js'
 // const {ipcRenderer} = window.require('electron')
 function App() {
   return (

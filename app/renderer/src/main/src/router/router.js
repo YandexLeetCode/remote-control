@@ -1,14 +1,14 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
-import RemoteControl from '../layout/remote_control'
-import ContactUser from '../layout/contact_user'
+import { HashRouter , Route, Switch, Redirect, Link } from 'react-router-dom';
+import RemoteControl from '../component/remote_control'
+import ContactUser from '../component/contact_user'
+import Login from '../component/login'
 
 const BasicRoute = () => (
-    <HashRouter>
-        <Switch>
-            <Route exact path="/" component={RemoteControl}/>
-            <Route path="/contactUser" component={ContactUser} />
-        </Switch>
-    </HashRouter>
+    <Switch>
+        <Route path="/remoteControl" component={RemoteControl}/>
+        <Route path="/contactUser" component={ContactUser} />
+        <Route path="/login" component={Login} />
+    </Switch>
 )
 export default BasicRoute
