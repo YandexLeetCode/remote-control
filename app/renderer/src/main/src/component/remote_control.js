@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Checkbox, Input, AutoComplete, Radio, Button } from 'antd'
 import { UserOutlined } from '@ant-design/icons';
-import remote_control from '../style/remote_control.css'
+import remote_control from '../style/remote_control.module.scss'
 
 const plainOptions = ['随系统一同启动RemoteControl', '授权访问'];
 const defaultCheckedList = [];

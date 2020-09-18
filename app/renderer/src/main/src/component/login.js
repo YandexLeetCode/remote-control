@@ -1,5 +1,5 @@
 import React from 'react'
-import login from '../style/login.css'
+import login from '../style/login.module.scss'
 
 
 /**

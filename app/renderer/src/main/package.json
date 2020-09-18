@@ -13,9 +13,8 @@
   },
   "scripts": {
     "start": "BROWSER=none react-app-rewired start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,8 +34,8 @@
   "devDependencies": {
     "@ant-design/icons": "^4.2.2",
     "customize-cra": "^1.0.0",
-    "less": "^3.12.2",
-    "prop-types": "^15.7.2",
+    "har-validator": "^5.1.5",
+    "node-sass": "^4.14.1",
     "react-app-rewired": "^2.1.6",
     "react-router-dom": "^5.2.0"
   }

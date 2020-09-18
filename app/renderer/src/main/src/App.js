@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import { ipcRenderer } from 'electron';
 import MainLayout from './component/main_page.js'
 // const {ipcRenderer} = window.require('electron')
